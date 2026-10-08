@@ -1,0 +1,44 @@
+body{
+background-color: #E6F4F1;
+text-align: center;
+display: flex;
+flex-direction: column;
+color: #002B49;
+justify-content: center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+padding: 0 20px;
+margin: 0px;
+}
+.ava {
+width: 150px;
+height: 150px;
+border-radius: 50%;
+object-fit: cover;
+border: 2px solid #2dd4bf;
+}
+ul{
+    text-align: center;
+    margin: 20px 0;
+    padding: 0;
+    list-style: none;
+}
+li{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px;
+    height: auto;
+    margin: 0 auto;
+    gap: 20px;
+    text-align: center;
+}
+h2 {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
